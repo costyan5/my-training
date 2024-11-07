@@ -1,7 +1,9 @@
-immutable_var = tuple
-tuple = 1,2, "cars","buses"
-print (tuple)
-mutable_list = ["apples", "pears", 1,2,3]
-print (mutable_list)
-mutable_list [0]="banans"
-print (mutable_list)
+first=int(input())
+second=int(input())
+third=int(input())
+if first==second and second==third:
+    print(3)
+elif first==second or first==third or second==third:
+    print(2)
+else:
+    print (0)
